@@ -4,7 +4,7 @@ BaseCaching = __import__('base_caching').BaseCaching
 
 
 class LIFOCache(BaseCaching):
-    """LIFOCache"""
+    """LIFOCache Class"""
     def __init__(self):
         super().__init__()
         self.history = []

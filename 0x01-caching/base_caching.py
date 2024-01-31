@@ -3,7 +3,7 @@
 
 
 class BaseCaching():
-    """ BaseCaching defines:
+    """ BaseCaching Class defines:
       - constants of your caching system
       - where your data are stored (in a dictionary)
     """

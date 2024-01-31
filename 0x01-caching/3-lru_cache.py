@@ -4,7 +4,7 @@ BaseCaching = __import__('base_caching').BaseCaching
 
 
 class LRUCache(BaseCaching):
-    """LRUCache"""
+    """LRUCache Class"""
     def __init__(self):
         super().__init__()
         self.history = []

@@ -4,7 +4,7 @@ BaseCaching = __import__('base_caching').BaseCaching
 
 
 class BasicCache(BaseCaching):
-    """BasicCache"""
+    """BasicCache Class"""
     def put(self, key, item):
         """assigns the new item to dict"""
         if not (key is None or item is None):

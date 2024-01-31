@@ -4,7 +4,7 @@ from base_caching import BaseCaching
 
 
 class LFUCache(BaseCaching):
-    """LFUCache"""
+    """LFUCache Class"""
 
     def __init__(self):
         """Initialize the class"""
